@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First sauc Lab test Suite" duration-ms="35767" started-at="2021-01-14T13:12:30 GMT" finished-at="2021-01-14T13:13:06 GMT">
+    <groups>
+    </groups>
+    <test name="Testing demo tricen page on chrome" duration-ms="26966" started-at="2021-01-14T13:12:30 GMT" finished-at="2021-01-14T13:12:57 GMT">
+      <class name="GridTest.SauceLabs.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:GridTest.SauceLabs.LoginTest@5faeada1]" name="setup" is-config="true" duration-ms="13969" started-at="2021-01-14T13:12:30 GMT" finished-at="2021-01-14T13:12:44 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void GridTest.SauceLabs.LoginTest.checkPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkPageTitle()[pri:1, instance:GridTest.SauceLabs.LoginTest@5faeada1]" name="checkPageTitle" duration-ms="3486" started-at="2021-01-14T13:12:44 GMT" finished-at="2021-01-14T13:12:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GridTest.SauceLabs.LoginTest@5faeada1]" name="teardown" is-config="true" duration-ms="204" started-at="2021-01-14T13:12:48 GMT" finished-at="2021-01-14T13:12:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:GridTest.SauceLabs.LoginTest@5faeada1]" name="setup" is-config="true" duration-ms="6043" started-at="2021-01-14T13:12:48 GMT" finished-at="2021-01-14T13:12:54 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void GridTest.SauceLabs.LoginTest.checkLoggedUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkLoggedUser()[pri:2, instance:GridTest.SauceLabs.LoginTest@5faeada1]" name="checkLoggedUser" duration-ms="2921" started-at="2021-01-14T13:12:54 GMT" finished-at="2021-01-14T13:12:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoggedUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GridTest.SauceLabs.LoginTest@5faeada1]" name="teardown" is-config="true" duration-ms="164" started-at="2021-01-14T13:12:57 GMT" finished-at="2021-01-14T13:12:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- GridTest.SauceLabs.LoginTest -->
+    </test> <!-- Testing demo tricen page on chrome -->
+    <test name="Testing demo tricen page on firefox" duration-ms="35767" started-at="2021-01-14T13:12:30 GMT" finished-at="2021-01-14T13:13:06 GMT">
+      <class name="GridTest.SauceLabs.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:GridTest.SauceLabs.LoginTest@436e852b]" name="setup" is-config="true" duration-ms="18632" started-at="2021-01-14T13:12:30 GMT" finished-at="2021-01-14T13:12:49 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void GridTest.SauceLabs.LoginTest.checkPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkPageTitle()[pri:1, instance:GridTest.SauceLabs.LoginTest@436e852b]" name="checkPageTitle" duration-ms="3090" started-at="2021-01-14T13:12:49 GMT" finished-at="2021-01-14T13:12:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GridTest.SauceLabs.LoginTest@436e852b]" name="teardown" is-config="true" duration-ms="268" started-at="2021-01-14T13:12:52 GMT" finished-at="2021-01-14T13:12:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:GridTest.SauceLabs.LoginTest@436e852b]" name="setup" is-config="true" duration-ms="10440" started-at="2021-01-14T13:12:52 GMT" finished-at="2021-01-14T13:13:03 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void GridTest.SauceLabs.LoginTest.checkLoggedUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkLoggedUser()[pri:2, instance:GridTest.SauceLabs.LoginTest@436e852b]" name="checkLoggedUser" duration-ms="3009" started-at="2021-01-14T13:13:03 GMT" finished-at="2021-01-14T13:13:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoggedUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GridTest.SauceLabs.LoginTest@436e852b]" name="teardown" is-config="true" duration-ms="210" started-at="2021-01-14T13:13:06 GMT" finished-at="2021-01-14T13:13:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- GridTest.SauceLabs.LoginTest -->
+    </test> <!-- Testing demo tricen page on firefox -->
+  </suite> <!-- First sauc Lab test Suite -->
+</testng-results>
